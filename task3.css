@@ -1,0 +1,120 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+height: 4000px;
+background-attachment: fixed;
+background-image: url(pexels-jay-pizzle-3954451.jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+.layout{
+    width: 100%;
+    height: 100%;
+    background-color: rgpa(0,0,0,0.5);
+}
+.home{
+    width: 100%;
+    height: 100vh;
+
+    background-color: rgpa(0,0,0,0.5);
+/* overflow: auto; */
+}
+
+.home .nav ul{
+    list-style-type: none;
+    /* display: flex;
+justify-content: flex-end;} */
+}
+.home .nav ul li {
+    display: inline;
+    margin: 15px;
+    float: right;
+}
+.home .nav ul li .logo{
+    float: left;
+}
+.home .nav ul li img{
+    width: 15%;
+}
+
+.home .nav ul li a{
+    color: white;
+    font: bold;
+    text-decoration: none;
+    padding: 10px;
+}
+/******end nav*****/
+
+.home .caption{
+    /* background-color: bisque; */
+    text-align: center;
+}
+.home .caption h1{
+    color: azure;
+margin: 10 px 0px;
+font-size: 20px;
+}
+.home .caption button{
+border: 1px solid black;
+border-radius: 20px;
+padding: 10px 0px;
+width: 20%;
+color: black;
+font-weight: bold;
+}
+.home .layout .maintaince {
+    padding: 100vh;
+    display:contents;
+    justify-content:space-around;
+}
+.home .layout .father1 .feature1{
+    background-color: rgpa(0,0,0,0.5);
+    padding: 20px;
+    margin: 20px 0;
+}
+.home .layout .father1 .feature1 h3{
+    font-size: 24px;
+    color: #ffffff;
+}
+.home .layout .father1 .feature1 p{
+    font-size: 16px;
+    color: #f4f0f0;
+}
+.home .layout .father2 .feature2{
+    background-color: rgpa(0,0,0,0.5);
+    padding: 20px;
+    margin: 20px 0;
+}
+.home .layout .father2 .feature2 h3{
+    font-size: 24px;
+    color: #ffffff;
+}
+.home .layout .father2 .feature2 p{
+    font-size: 16px;
+    color: #ffffff;
+}
+.home .layout .father1 {
+    display:flex;
+   justify-content: space-around;
+}
+.home .layout .father2 {
+    display:flex;
+    justify-content: space-around;
+}
+.home .layout .father1 .feature1 img{
+    border-radius: 5px;
+    width: 50px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+   
+ }
+.home .layout .father2 .feature2 img{
+   border-radius: 5px;
+    width: 50px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
